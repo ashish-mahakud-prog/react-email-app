@@ -6,13 +6,11 @@ function App() {
 
     return (
         <>
-            <div className=" app-container d-flex justify-content-center vh-100">
-                <div className="main-container">
-                    <Header/>
-                    <div className="mail-container d-flex">
-                        <EmailListingContainer/>
-                        <EmailContainer/>
-                    </div>
+            <div className="container min-vh-100">
+                <Header/>
+                <div className="row g-2 h-100">
+                    <EmailListingContainer/>
+                    <EmailContainer/>
                 </div>
             </div>
         </>

@@ -11,17 +11,3 @@ body {
   min-width: 100vw;
   min-height: 100vh;
 }
-
-.app-container {
-  background-color: hsl(225, 6%, 13%);
-}
-.main-container {
-  min-width: 1024px !important;
-  min-height: 100vh;
-  background-color: hsl(216, 5%, 18%);
-}
-
-.logo {
-font-weight: bold;
-  font-size: x-large;
-}
